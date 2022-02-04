@@ -10,7 +10,7 @@ body {
     font-weight: 500;
     font-style: normal; 
     cursor: url(https://i.ibb.co/6m78m5n/Heart.png) 15 15, move;
-    min-width: 450px;
+    min-width: 400px;
 }
 
 header {
@@ -167,7 +167,7 @@ margin: 0 auto;
 .margot, .beth, .no{
     width: 30%;
     font-family: brandon-grotesque, sans-serif;
-    font-weight: 400;
+    font-weight: 200;
     font-style: normal;
     font-size: 1.2vw;
     line-height: 1.4em;
@@ -686,7 +686,7 @@ ul {
 
 @media screen and (max-width: 1000px) {
     .section_one_text, .section_two_text, .section_two_text_rotation, .section_three_text_uno, .section_three_text_dos, .section_three_text_tre  {
-        font-size: 15px;
+        font-size: 16px;
         position: relative;
     }
 
@@ -725,7 +725,7 @@ ul {
     
     .hakol, .hakol_two, .hakol_three {
         flex-basis: 40%;
-        font-size: 1em;
+        font-size: 1.1em;
         line-height: 1.2em;
         margin-right: 60px;
         margin-top: 40px;
@@ -849,6 +849,10 @@ ul {
         font-size: 2.5vw;
     }
 
+    .no {
+        padding-left: 3vw;
+    }
+
     .h2 {
         font-size: 2.8vw;
         line-height: 1.2em;
@@ -945,7 +949,7 @@ ul {
     .section_one_text, .section_two_text, .section_two_text_rotation, .section_three_text_uno, .section_three_text_dos, .section_three_text_tre {
         flex-basis: 65%;
         font-size: 15px;
-        line-height: 1.25em;
+        line-height: 1.28em;
         padding-top: 30px;
     }
 
@@ -1178,12 +1182,36 @@ ul {
     .open {
         display: none;
     }
+
+    .info2 {
+        padding-top: 6px;
+        border-top: 1px solid white;
+        font-size: 12px;
+        margin-top: 20px;
+    }
 }
 
 @media screen and (max-width: 500px) {
 
     .opening {
         margin-bottom: 0;
+    }
+
+    .margot, .beth, .no{
+        font-size: 3.3vw;
+        line-height: 1.32em;
+    }
+
+    .headline {
+        padding-left: 0;
+    }
+    
+    .h2 {
+        font-size: 3.8vw;
+    }
+
+    .left {
+        top: -32vw;
     }
 
     .hakol, .hakol_two, .hakol_three {
@@ -1233,11 +1261,6 @@ ul {
     .part {
         border: none;
         margin-bottom: 10px;
-    }
-    
-    .info2 {
-        padding-top: 6px;
-        border-top: 1px solid white;
     }
 
     .section_two_open, .section_three_open {
