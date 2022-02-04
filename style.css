@@ -1159,6 +1159,13 @@ ul {
     .headline p {
         font-size: 11vw;
     }
+
+    .info2 {
+        padding-top: 6px;
+        border-top: 1px solid white;
+        font-size: 12px;
+        margin-top: 20px;
+    }
 }
 
 @media screen and (max-width: 570px) {
@@ -1181,13 +1188,6 @@ ul {
 
     .open {
         display: none;
-    }
-
-    .info2 {
-        padding-top: 6px;
-        border-top: 1px solid white;
-        font-size: 12px;
-        margin-top: 20px;
     }
 }
 
