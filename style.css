@@ -10,6 +10,7 @@ body {
     font-weight: 500;
     font-style: normal; 
     cursor: url(https://i.ibb.co/6m78m5n/Heart.png) 15 15, move;
+    min-width: 450px;
 }
 
 header {
@@ -498,6 +499,11 @@ margin: 0 auto;
     padding-right: 50px;
 }
 
+.section_three_text_uno {
+    min-width: 230px;
+    height: auto;
+}
+
 .section_three_text_dos {
     padding-top: 0;
 }
@@ -510,9 +516,8 @@ margin: 0 auto;
     font-style: normal;
     font-size: 1.3em;
     line-height: 1.2em;
-    margin-left: 70px;
+    margin-left: 20px;
     margin-right: 80px;
-    margin-top: 50px;
 }
 
 .hakol_two {
@@ -551,6 +556,7 @@ video {
     height: auto;
     margin-right: 80px;
     margin-left: 20px;
+    min-width: 400px;
 }
 
 .video {
@@ -648,8 +654,11 @@ ul {
 @media screen and (max-width: 1200px) {
 
     .hakol, .hakol_two, .hakol_three {
+        margin-left: 40px;
+    }
 
-        margin-left: 20px;
+    .section_three_text_uno, .section_three_text_dos, .section_three_text_tre {
+        padding-right: 0%;
     }
 
     footer {
@@ -670,7 +679,7 @@ ul {
         font-style: normal;
         font-size: 13px;
         line-height: 1.4em;
-        margin-left: 20px;
+        margin-left: 10px;
         margin-bottom: 20px;
     }
 }
@@ -695,7 +704,7 @@ ul {
     .the_rest {
         flex: 90%;
         margin-right: 3vw; 
-        margin-left: 3vw;
+        margin-left: 2vw;
     }
     
     .uno, .dos, .tre{
@@ -716,10 +725,8 @@ ul {
     
     .hakol, .hakol_two, .hakol_three {
         flex-basis: 40%;
-        margin-top: 50px;
         font-size: 1em;
         line-height: 1.2em;
-        margin-left: 55px;
         margin-right: 60px;
         margin-top: 40px;
     }
@@ -782,7 +789,7 @@ ul {
         margin: 0 auto;
         text-align: center;
         flex: 1;
-        padding-left: 5vw;
+        padding-left: 4vw;
         padding-bottom: 0px;
     }
 
@@ -839,7 +846,7 @@ ul {
 
     .margot, .beth, .no{
         width: 40%;
-        font-size: 2.2vw;
+        font-size: 2.5vw;
     }
 
     .h2 {
@@ -865,7 +872,7 @@ ul {
     }
 
     .right {
-        margin: 0 5vw;
+        margin: 0 3vw;
         padding-top: 0;
         padding-bottom: 100px;
     }
@@ -882,6 +889,10 @@ ul {
     .header_middle {
     background-color: rgb(199, 0, 0);
     opacity: 85%;
+    }
+
+    .right {
+        margin: 0 1vw;
     }
 
     .top {
@@ -907,6 +918,11 @@ ul {
       margin-bottom: 90px;
     }
 
+    .margot, .beth, .no{
+        font-size: 2.8vw;
+    }
+
+
     .section_one_header, .section_two_header, .section_three_header { 
         font-size: 22px;
         padding-top: 30px;
@@ -927,9 +943,9 @@ ul {
     }
 
     .section_one_text, .section_two_text, .section_two_text_rotation, .section_three_text_uno, .section_three_text_dos, .section_three_text_tre {
-        flex-basis: 55%;
-        font-size: 13.5px;
-        line-height: 1.3em;
+        flex-basis: 65%;
+        font-size: 15px;
+        line-height: 1.25em;
         padding-top: 30px;
     }
 
@@ -1106,7 +1122,9 @@ ul {
 
     .left {
         top: -30vw;
+        padding-left: 2vw;
     }
+
     .new-left {
         display: flex;
         width: 95%;
@@ -1121,12 +1139,13 @@ ul {
         border-top: 0;
         text-align: left;
         padding-left: 8px;
+        line-height: 1.1em;
         padding-top: 20px;
         font-size: 3vw;
     }
 
     .no {
-        padding-left: 2.3vw;
+        padding-left: 3vw;
     }
 
     .headline {
@@ -1134,7 +1153,7 @@ ul {
     }
 
     .headline p {
-        font-size: 9vw;
+        font-size: 11vw;
     }
 }
 
@@ -1163,6 +1182,9 @@ ul {
 
 @media screen and (max-width: 500px) {
 
+    .opening {
+        margin-bottom: 0;
+    }
 
     .hakol, .hakol_two, .hakol_three {
         flex-basis: 35%;
@@ -1201,7 +1223,7 @@ ul {
     }
 
     .end {
-        margin-bottom: 50px;
+        margin-bottom: 30px;
     }
 
     .no_border {
